@@ -11,6 +11,10 @@ body{
     height: 100vh;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     max-width: 1200px;
     margin: 0 auto;
@@ -53,9 +57,15 @@ header{
 }
 
 header .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
 }
 
 header a{
@@ -153,6 +163,14 @@ header nav.menu-desktop ul li{
 }
 
 /*TOPO-SITE*/
+.topo-site .btn-descer{
+    color: #0015ff;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+
 .topo-site{
     padding: 40px 4%;
 }
