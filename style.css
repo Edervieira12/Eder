@@ -1,4 +1,4 @@
-/*ESTILO GERAL*/
+                /*ESTILO GERAL*/
 *{
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ button:hover, .btn-enviar input:hover{
     transform: scale(1.05);
 }
 
-/*ESTILO DA NAVBAR*/
+                /*ESTILO DA NAVBAR*/
 header{
     padding: 40px 4%;
 }
@@ -60,7 +60,7 @@ header .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 header a{
@@ -89,7 +89,7 @@ header nav.menu-desktop ul li{
     transform: scale(1.05);
 }
 
-/*MENU-MOBILE*/
+                /*MENU-MOBILE*/
 .btn-abrir-menu{
     display: none;
 }
@@ -157,7 +157,7 @@ header nav.menu-desktop ul li{
     display: none;
 }
 
-/*TOPO-SITE*/
+                /*TOPO-SITE*/
 .topo-site .btn-descer{
     color: #0015ff;
     font-size: 30px;
@@ -196,7 +196,7 @@ header nav.menu-desktop ul li{
     border-radius:35px;
 }
 
-/*Especialidades*/
+                /*Especialidades*/
 
 .especialidades{
     padding: 40px 4%;
@@ -229,7 +229,7 @@ header nav.menu-desktop ul li{
     margin: 15px 0;
 }
 
-/* SOBRE */
+                /* SOBRE */
 
 .sobre{
     padding: 60px 4%;
@@ -278,7 +278,7 @@ header nav.menu-desktop ul li{
     transition: .2s;
 }
 
-/* formulario */
+                /* formulario */
 
 .formulario{
     padding: 80px 4%;
@@ -324,7 +324,34 @@ form textarea{
     transition: .2s;
 }
 
-/* ESTILO DO RODAPE */
+                /*BOTÃO-TOPO*/
+    .btn-top{
+        background-color: #0015ffc2;
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    .arrow{
+        border: solid #000000;
+        border-width: 0 7px 7px 0;
+        padding: 5px;
+        display: inline-block;
+    }
+    .up {
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+    }
+
+                /* ESTILO DO RODAPE */
 
 footer{
     color: white;
@@ -357,7 +384,7 @@ footer .line-footer p a{
             /*MENU RESPONSIVO*/
 @media screen and (max-width: 1108px){
 
-    /*GERAL*/
+            /*GERAL*/
     
     
     .topo-site .flex{
@@ -377,17 +404,17 @@ footer .line-footer p a{
         line-height: 36PX;
     }
     
-        /*CABEÇALHO*/
+                /*CABEÇALHO*/
     .menu-desktop,.btn-contato{
         display: none;
     }
 
-        /*MENU-MOBILE*/
+                /*MENU-MOBILE*/
         .btn-abrir-menu{
             display: block;
         }
         
-        /*TOPO DO SITE*/
+                /*TOPO DO SITE*/
     section.topo-site{
         padding: 10px 8%;
     }
@@ -404,12 +431,12 @@ footer .line-footer p a{
         width: 300px;
         border-radius:35px;
     }
-        /*ESPECIALIDADES*/
+                /*ESPECIALIDADES*/
     .especialidades{
         padding: 2px 8%;
     }
 
-    /*SOBRE*/
+                /*SOBRE*/
     .txt-sobre h2{
         font-size: 30px;
         line-height: 35px;
@@ -420,12 +447,12 @@ footer .line-footer p a{
         text-align: center;
     }
 
-    /*FORMULARIO*/
+                /*FORMULARIO*/
     .formulario{
         padding: 10px 8%;
     }
     
-    /*RODAPE*/
+                /*RODAPE*/
     footer{
         color: white;
         padding: 10px 8%;
