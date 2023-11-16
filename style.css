@@ -179,7 +179,7 @@ header nav.menu-desktop ul li{
 .txt-topo-site h1{
     color: white;
     font-size: 42px;
-    line-height: 50px;
+    line-height: 20px;
 }
 
 .txt-topo-site h1 span{
@@ -192,8 +192,8 @@ header nav.menu-desktop ul li{
 }
 
 .img-topo-site img{
-    width: 350px;
-    border-radius:35px;
+    width: 450px;
+    border-radius: 25px;
 }
 
                 /*Especialidades*/
