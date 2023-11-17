@@ -179,7 +179,7 @@ header nav.menu-desktop ul li{
 .txt-topo-site h1{
     color: white;
     font-size: 42px;
-    line-height: 20px;
+    line-height: 10px;
 }
 
 .txt-topo-site h1 span{
@@ -391,8 +391,18 @@ footer .line-footer p a{
         flex-direction: column-reverse;
     }
 
+    .txt-topo-site h1{
+        color: white;
+        font-size: 42px;
+        line-height: 30px;
+    }
+
+    .txt-topo-site p{
+        margin: 15px 10;
+    }
+
      .sobre .flex{
-        flex-direction: column-reverse;
+        flex-direction: column;
      }   
 
      .especialidades .flex{
