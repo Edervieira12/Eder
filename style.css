@@ -166,13 +166,7 @@ header nav.menu-desktop ul li{
 }
 
                 /*TOPO-SITE*/
-.topo-site .btn-descer{
-    color: #0015ff;
-    font-size: 30px;
-    justify-content: center;
-    display: flex;
-    align-items: flex-end;
-}
+
 
 .topo-site{
     padding: 40px 4%;
@@ -453,6 +447,7 @@ footer .line-footer p a{
         width: 300px;
         border-radius:35px;
     }
+
                 /*ESPECIALIDADES*/
     .especialidades{
         padding: 2px 8%;
