@@ -56,11 +56,19 @@ header{
     padding: 40px 4%;
 }
 
+header .logo img{
+    width: 80px;
+}
+
 header .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
+}
+
+header .logo{
+    font-size: 20px;
 }
 
 header a{
@@ -352,6 +360,10 @@ form textarea{
     }
 
                 /* ESTILO DO RODAPE */
+
+footer .logo-footer img{
+    width: 80px;
+}
 
 footer{
     color: white;
